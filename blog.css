@@ -1,0 +1,174 @@
+:root {
+    --blue1: rgb(131, 197, 230);
+    --blue2: rgb(64, 150, 224);
+    --blue3: rgb(0, 81, 152);
+    --red1: #a02121;
+    --red2: #b72e2e;
+    --red3: #720d0d;
+
+}
+
+header {
+    position: fixed;
+    background-color: var(--blue1);
+    top: 45px;
+    left: 0%;
+    width: 100%;
+    padding: 0%;
+
+}
+
+* {
+    font-family: Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
+    background-color: rgb(185, 232, 255);
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+h1 {
+    color: var(--red1);
+    font-size: 40px;
+    background-color: var(--blue1);
+    line-height:40px;
+
+}
+
+h2 {
+    background-color: var(--blue1);
+    line-height: 15px;
+
+}
+
+body {
+    padding-right: 75px;
+    padding-left: 195px;
+    padding-top: 300px;
+    grid-template-columns: 2fr;
+
+}
+
+#navBar {
+    width: 100%;
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: var(--red1);
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+#navStyle {
+    padding: 10px;
+    display: block;
+    background-color: var(--red2);
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    color: black;
+    border: var(--red3) 2px solid;
+    font-size: 16px;
+
+}
+
+.bookmarks {
+    display: grid;
+    right: 0% !important;
+    background-color: bisque;
+
+}
+
+img {
+    outline-style: groove;
+    outline-color: var(--red3);
+
+}
+
+a:link {
+    color: var(--blue3);
+
+}
+
+a:hover {
+    color: var(--blue2);
+
+}
+
+a:visited {
+    color: var(--red3);
+
+}
+
+a:active {
+    color: var(--red1);
+
+}
+
+#submit {
+    background-color: var(--blue2);
+    color: white;
+    
+}
+
+#submit:hover {
+    background-color: var(--blue3);
+
+}
+
+#submit:active {
+    background-color: rgb(0, 46, 81);
+
+}
+
+#sidebar {
+    width: 120px;
+    height: 100%; 
+    background-color:var(--blue1);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin-left: -205px;
+    margin-top: -125px;
+    position: fixed;
+}
+
+#bookmark {
+    background-color: var(--blue1);
+    grid-template-columns: 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 75px;
+    width: 100%;
+
+}
+
+#bookmark li {
+    display: grid;
+    justify-items: start; 
+    
+}
+
+#bookmark a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--blue1);
+    opacity: 75%;
+}
+
+#bookmark a:hover {
+    background-color: var(--blue1);
+    opacity: 100%;
+
+}
