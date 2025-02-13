@@ -15,13 +15,14 @@ header {
     left: 0%;
     width: 100%;
     padding: 0%;
+    margin-bottom: 200px;
 
 }
 
 * {
-    font-family: Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva,  Verdana, sans-serif;
     background-color: rgb(185, 232, 255);
-    font-size: 20px;
+    font-size: 20px;                
 
 }
 
@@ -63,6 +64,8 @@ body {
     display: block;
     list-style-type: none;
     overflow: hidden;
+    margin-left: -204px;
+
 
 }
 
@@ -77,18 +80,13 @@ body {
     border: var(--red3) 2px solid;
     font-size: 16px;
 
+
 }
 
 .bookmarks {
     display: grid;
     right: 0% !important;
     background-color: bisque;
-
-}
-
-img {
-    outline-style: groove;
-    outline-color: var(--red3);
 
 }
 
@@ -107,9 +105,12 @@ a:visited {
 
 }
 
-a:active {
-    color: var(--red1);
+a:visited:hover {
+    color: var(--red2);
+}
 
+a:active {
+    font-weight: bold;
 }
 
 #submit {
@@ -136,7 +137,7 @@ a:active {
     display: grid;
     grid-template-columns: 1fr; 
     margin-left: -205px;
-    margin-top: -125px;
+    margin-top: -140px;
     position: fixed;
 }
 
@@ -171,4 +172,18 @@ a:active {
     background-color: var(--blue1);
     opacity: 100%;
 
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    border-radius: 3%;
+
+}
+
+#List {
+    text-align: justify;
 }
