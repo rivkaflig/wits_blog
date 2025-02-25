@@ -16,6 +16,7 @@ header {
     width: 100%;
     padding: 0%;
     margin-bottom: 200px;
+    text-align: center;
 
 }
 
@@ -80,6 +81,18 @@ body {
     border: var(--red3) 2px solid;
     font-size: 16px;
 
+}
+
+#navSubscribe {
+    padding: 10px;
+    display: block;
+    background-color: var(--red2);
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    color: black;
+    border: var(--red3) 2px solid;
+    font-size: 16px;
 
 }
 
@@ -175,14 +188,21 @@ a:active {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 67%;
+    width: 67%;
     margin-left: auto; 
     margin-right: auto; 
     display: block;
     border-radius: 3%;
 
 }
+
+@media screen and (max-width: 1300px) {
+    img {
+      height: 90%;
+      width: 90%
+    }
+  }
 
 #List {
     text-align: justify;
